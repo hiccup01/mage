@@ -8,7 +8,7 @@ var defaults = {
 	"start":1,
 	"imagetag":"innerimage",
 	"format":".png"
-}
+};
 var types = ["location", "tag", "start", "imagetag", "format"];
 for (var i = 0; i < types.length; i++) {
 	if (typeof settings[(types[i])] == undefined) {
